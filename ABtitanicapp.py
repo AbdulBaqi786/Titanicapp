@@ -24,7 +24,7 @@ with open('titanicpickle.pkl' ,'rb') as pickleFile:    #here we Load the pretrai
     #The restored object is then assigned to the variable model.
 
     st.title('AB Titanic Survival Prediction Web Application')
-    st.image('titanicIMG.jpg',caption='Predict Passengers Survival on the Titanic')
+    st.image('TitanicIMG.jpg',caption='Predict Passengers Survival on the Titanic')
     #Set the title and Display an Image for Branding
 
 #Function for making the predictions
